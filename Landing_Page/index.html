@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 1 :Landing Page</title>
+    <!-- Add Bootstrap CSS link -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="header bg-dark text-white py-3">
+      <div class="container">
+        <div class="d-flex justify-content-between align-items-center">
+          <h1 class="logo mb-0">Your Brand</h1>
+          <nav class="nav">
+            <a class="text-white mx-3" href="#features">Features</a>
+            <a class="text-white mx-3" href="#about">About Us</a>
+            <a class="text-white mx-3" href="#contact">Contact</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <section id="features" class="features text-center py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mx-3">
+            <div class="feature">
+              <img
+                src="https://images.pexels.com/photos/2562992/pexels-photo-2562992.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                height="400"
+                width="400"
+              />
+              <h3>Feature 1</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </div>
+          <div class="col-md-4 mx-3">
+            <div class="feature">
+              <img
+                src="https://images.pexels.com/photos/4429559/pexels-photo-4429559.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                height="400"
+                width="400"
+              />
+              <h3>Feature 2</h3>
+              <p>Integer eu dui vitae augue suscipit elementum.</p>
+            </div>
+          </div>
+          <div class="col-md-4 mx-3">
+            <div class="feature">
+              <img
+                src="https://images.pexels.com/photos/3194609/pexels-photo-3194609.jpeg?auto=compress&cs=tinysrgb&w=600"
+                height="400"
+                width="400"
+              />
+              <h3>Feature 3</h3>
+              <p>Donec sagittis dui et varius fermentum. Proin ut odio.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about text-center py-5">
+      <div class="container">
+        <div class="about-content">
+          <h2>About Us</h2>
+          <p class="lead">
+            This landing page is developed during the internship period at
+            Octanet.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact text-center py-5">
+      <div class="container">
+        <div class="contact-content">
+          <h2>Contact Us</h2>
+          <form action="#">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Your Name" />
+            </div>
+            <div class="form-group">
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Your Email"
+              />
+            </div>
+            <div class="form-group">
+              <textarea
+                class="form-control"
+                placeholder="Your Message"
+                rows="4"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer text-center text-white py-3">
+      <p>&copy; 2023 Your Brand. All rights reserved.</p>
+    </footer>
+
+    <!-- Add Bootstrap JS scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

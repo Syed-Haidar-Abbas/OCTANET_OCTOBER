@@ -1,0 +1,56 @@
+body {
+
+    font-family: Arial, sans-serif;
+
+    background-color: #f8f9fa;
+
+}
+
+.task-list {
+
+    max-width: 500px;
+
+    margin: 0 auto;
+
+    background-color: #fff;
+
+    padding: 20px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+.input-group-text {
+
+    background-color: #007bff;
+
+    border-color: #007bff;
+
+    color: #fff;
+
+}
+
+.task-list input {
+
+    width: 70%;
+
+    border-radius: 5px;
+
+}
+
+.btn-primary {
+
+    background-color: #007bff;
+
+    border-color: #007bff;
+
+}
+.btn-primary:hover {
+
+    background-color: #0056b3;
+
+    border-color: #0056b3;
+    
+}
